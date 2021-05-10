@@ -961,19 +961,19 @@ var Game_Component = Game_normalizeComponent(
       this.moreShow = !this.moreShow;
       document.querySelector('.triangle').style.transform = this.moreShow ? 'rotate(180deg)' : 'rotate(0deg)';
       this.$nextTick(function () {
-        document.querySelector('.game-rule-content').scrollTop = 50;
+        document.querySelector('.game-rule-content').scrollTop = 100;
       });
     }
   }
 });
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-14aee886","hasScoped":false,"transformToRequire":{"video":["src","poster"],"source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/views/Rule.vue
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/template-compiler?{"id":"data-v-33ab53e4","hasScoped":false,"transformToRequire":{"video":["src","poster"],"source":"src","img":"src","image":"xlink:href"},"buble":{"transforms":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0!./src/views/Rule.vue
 var Rule_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"game-rule-bg position-absolute d-flex justify-content-center align-items-center"},[_c('div',{staticClass:"px-4 game-rule-content d-flex align-items-center"},[_c('div',{staticClass:"mx-90"},[_c('img',{attrs:{"src":__webpack_require__("guzM"),"width":"100%","alt":""}}),_vm._v(" "),_vm._m(0),_vm._v(" "),_c('div',{staticClass:"position-relative z-999 d-flex align-items-center justify-content-center"},[_c('div',{staticClass:"more-rule mb-0 position-absolute py-1 text-light d-flex justify-content-center align-items-center h5",on:{"click":_vm.moreDetail}},[_c('b',[_vm._v("點我看更多注意事項")]),_vm._v(" "),_c('span',{staticClass:"triangle ml-1 mt-1"})]),_vm._v(" "),_c('img',{staticClass:"down-img",attrs:{"src":__webpack_require__("w80D"),"width":"100%","alt":""}})]),_vm._v(" "),_c('div',{staticClass:"more-detail px-3 pb-5",attrs:{"id":"more"}},[_c('transition',{attrs:{"name":"slide-fade"}},[_c('div',{directives:[{name:"show",rawName:"v-show",value:(_vm.moreShow),expression:"moreShow"}],staticClass:"w-100 bg-white p-4 game-rule-more mx-auto height-auto h3"},[_c('p',[_vm._v("1. 每次活動將扣除5點UUPON點數或15顆愛心 (若點數不足或愛心不足者，將無法進行遊戲)。")]),_vm._v(" "),_c('p',[_vm._v("2. 確認欲參與遊戲後，遊戲點數或愛心將會即時扣除，無法取消或退還。")]),_vm._v(" "),_c('p',[_vm._v("3. 如欲新開一局，將依照目前該局所戳之格數進行扣點，方可更換新局，相關規則如下：")]),_vm._v(" "),_c('p',{staticClass:"text-danger h2"},[_vm._v("*優惠通知：新遊戲上路，優惠期間新開一局將不進行扣點(戳一格後方可免費開新局)，優惠結束後將依照遊戲規則扣除點數*")]),_vm._v(" "),_c('p',[_vm._v("4. 遊戲之抽獎獎品將依活動實際公告為主。")]),_vm._v(" "),_c('p',[_vm._v("5.  若有實體獎項，獎品寄送地點限中華民國境內，無法配合領獎事宜者，將視同自動放棄中獎資格，不得異議。")]),_vm._v(" "),_c('p',[_vm._v("6. 抽中之優惠券商品序號及使用效期，將於得獎紀錄中提供 (請至獎品記錄查詢，並留意使用效期)。")]),_vm._v(" "),_c('p',[_vm._v("7. 點鑽整合行銷股份有限公司保留審核、決定及變更獎項內容之權利，如因不可抗拒之因素，點鑽整合行銷股份有限公司有權更換獎項為等值商品。")]),_vm._v(" "),_c('p',[_vm._v("8. 點鑽整合行銷股份有限公司保留隨時修正、暫停或終止本活動之權利，如有變動並將另行公告於活動頁面。")])])])],1)])])])}
 var Rule_staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"bg-white p-4 game-rule mx-auto mt-2 mb-3"},[_c('p',{staticClass:"h5 text-main mb-2 font-weight-bold"},[_c('b',[_vm._v("活動說明 :")])]),_vm._v(" "),_c('div',{staticClass:"text-third"},[_c('p',{staticClass:"h4"},[_c('b',[_vm._v("1. 於活動期間內，點選「遊戲開始」，將出現一張6*6的戳戳樂。")])]),_vm._v(" "),_c('p',{staticClass:"h4"},[_c('b',[_vm._v("2. 選擇一格您所喜愛的格子並點下，系統將扣除5點UUPON點數或15顆愛心 (若點數不足或愛心不足者，將無法進行遊戲)。")])]),_vm._v(" "),_c('p',{staticClass:"h4"},[_c('b',[_vm._v("3. 最後看看所找尋到的是什麼神秘寶藏吧！")])])]),_vm._v(" "),_c('p',{staticClass:"h5 text-purple font-weight-bold"},[_vm._v("使用點數: 5點或15顆愛心")]),_vm._v(" "),_c('p',{staticClass:"h5 text-main mb-2 font-weight-bold"},[_vm._v("活動時間：即日起至2021/05/31")]),_vm._v(" "),_c('p',{staticClass:"h5 text-main"},[_c('b',[_vm._v("驚喜Bonus :")])]),_vm._v(" "),_c('p',{staticClass:"h4 text-third"},[_c('b',[_vm._v("戳中的愛心收集滿15顆，就能免費再戳一格哦！")])]),_vm._v(" "),_c('p',{staticClass:"h5 text-main"},[_c('b',[_vm._v("獎項公告 :")])]),_vm._v(" "),_c('p',{staticClass:"h4 text-third"},[_c('b',[_vm._v("抽中之點數、優惠券商品序號，將於得獎紀錄中提供")])])])}]
 var Rule_esExports = { render: Rule_render, staticRenderFns: Rule_staticRenderFns }
 /* harmony default export */ var views_Rule = (Rule_esExports);
 // CONCATENATED MODULE: ./src/views/Rule.vue
 function Rule_injectStyle (ssrContext) {
-  __webpack_require__("vKxj")
+  __webpack_require__("tbzn")
 }
 var Rule_normalizeComponent = __webpack_require__("VU/8")
 /* script */
@@ -1467,7 +1467,7 @@ module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGMAAABsCAMAAABJ
 
 /***/ }),
 
-/***/ "vKxj":
+/***/ "tbzn":
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
